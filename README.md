@@ -1,5 +1,4 @@
-<a href="#"><img width="100%" height="auto" src="[https://github.com/ODRDLabs/ODRDLabs/blob/f7be98abbb20299f7859b771d7f1dc9e17ad0c9c/gitwalldefault.png](https://github.com/Our-Destiny-R-D-Labs/Destiny-V.0.0.1-The-Birth/blob/main/Destiny-The-Birth.png)" height="175px"/></a>
-
+<a href="#"><img width="100%" height="auto" src="https://github.com/ODRDLabs/ODRDLabs/blob/f7be98abbb20299f7859b771d7f1dc9e17ad0c9c/gitwalldefault.png" height="175px"/></a>
 
 
 
