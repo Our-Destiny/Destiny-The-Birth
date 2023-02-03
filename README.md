@@ -1,6 +1,15 @@
 <a href="#"><img width="100%" height="auto" src="https://github.com/Our-Destiny-R-D-Labs/Destiny-V.0.0.1-The-Birth/blob/main/Destiny-The-Birth.png" height="175px"/></a>
 
 
+<p align="center">
+    <img src="https://img.shields.io/badge/Build%20Date-2019%20Mar%2021-blue?style=social&logo=jabber">
+    <img alt="Build" src="https://img.shields.io/badge/build-passed-success">
+    <img alt="Contributors" src="https://img.shields.io/badge/contributors-2-blue">
+    <img alt="Status" src="https://img.shields.io/badge/status-working-success">
+    <img alt="Status" src="https://img.shields.io/badge/current%20release-v0.0.1-informational">
+    <img alt="Status" src="https://img.shields.io/badge/progress-discontinued-important">
+</p>
+
 
 
 
