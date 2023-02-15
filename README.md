@@ -25,7 +25,7 @@ enhance human life and ensure privacy to data and security to life.
 Version Control For This Project Is Completely Based On Evolution Of The Project.
 ## Features
 
-- Cross-platform targeted design configuration.
+- `Cross-platform` targeted design configuration.
 - Simple speech engine and easy to configure.
 - Sapi5 Voice Support.
 - Uses Ivona Text To Speech Engine Voices.
@@ -50,4 +50,13 @@ Ivona Voice Used
 ```bash
 IVONA 2 Salli - US English female voice [22kHz]
 
+```
+
+
+ ```python
+    import time
+    #The current epoch time
+    current_time = time.time()
+    #Set the time for a minute
+    event_activation_time = current_time+60
 ```
