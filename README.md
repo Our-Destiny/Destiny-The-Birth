@@ -60,3 +60,16 @@ IVONA 2 Salli - US English female voice [22kHz]
     #Set the time for a minute
     event_activation_time = current_time+60
 ```
+
+
+#### Supported Environments
+
+|                         |                                         |
+|-------------------------|-----------------------------------------|
+| **Operating systems**   | Linux                                   |
+| **Python versions**     | Python 3.x (64-bit)                     |
+| **Distros**             | KDE neon, elementary OS, Ubuntu         |
+| **Package managers**    | APT, pip                                |
+| **Languages**           | English                                 |
+| **System requirements** | preferably a [CUDA supported GPU](https://www.geforce.com/hardware/technology/cuda/supported-gpus), 2GB of free RAM   |
+|                         |                                         |
