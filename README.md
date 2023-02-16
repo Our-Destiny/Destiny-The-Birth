@@ -75,13 +75,13 @@ IVONA 2 Salli - US English female voice [22kHz]
 |                         |                                         |
 
 ```
-usage: dragonfire [-h] [-c] [-s] [-j] [-v] [-g] [--server API_KEY] [-p PORT]
+usage: [-h] [-c] [-s] [-j] [-v] [-g] [--server API_KEY] [-p PORT]
                   [--version]
 
 optional arguments:
   -h, --help            show this help message and exit
   -c, --cli             Command-line interface mode. Give commands to
-                        Dragonfire via command-line inputs (keyboard) instead
+                        Destiny via command-line inputs (keyboard) instead
                         of audio inputs (microphone).
   -s, --silent          Silent mode. Disable Text-to-Speech output. Dragonfire
                         won't generate any audio output.
@@ -95,12 +95,12 @@ optional arguments:
                         RESTful spaCy API and become a Twitter integrated
                         chatbot.
   -p PORT, --port PORT  Port number for server mode.
-  --version             Display the version number of Dragonfire.
+  --version             Display the version number of Destiny
 ```
 #### Built-in Commands
 
 ```
-DRAGONFIRE | WAKE UP | HEY
+DESTINY | WAKE UP | HEY
 GO TO SLEEP
 ENOUGH | SHUT UP
 WHO AM I | SAY MY NAME
