@@ -72,7 +72,8 @@ BYE | QUIT
 - Simple speech engine and easy to configure.
 - `Sapi5` Voice Support.
 - Uses `Ivona Text To Speech Engine` Voices.
-- `Works Completely Offline`
+- `Works Completely Offline.`
+- Threaded Speech with Printing on command line.
 
 ---
 
