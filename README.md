@@ -77,7 +77,7 @@ BYE | QUIT
 ---
 
 
-## Installation
+## Prerequisite Installation
 
 **Install Python Version 3.7.6 - 64Bit Interpreter**
 
