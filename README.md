@@ -55,21 +55,18 @@ A python-based text-to-speech engine using the pyttsx3 module integrated into a 
 
 ---
 
-### Supported Environments
+## Built-in Commands
 
-|                         |                                         |
-|-------------------------|-----------------------------------------|
-| **Operating systems**   | Linux & Windows                         |
-| **Python versions**     | Python 3.7.6 (64-bit)                   |
-| **Distros**             | Ubuntu, Windows 8, 8.1 Pro, 10 (All Distros)         |
-| **Package managers**    | APT, pip                                |
-| **Languages**           | English                                 |
-| **System requirements** | 2GB of free RAM, i3 - Any Higher        |
-|                         |                                         |
-
+```
+DESTINY | HONEY
+WHATS THE TIME
+PLAY MUSIC
+THANK YOU
+BYE | QUIT
+```
 ---
 
-### Features
+## Features
 
 - `Cross-platform` targeted design configuration.
 - Simple speech engine and easy to configure.
@@ -79,7 +76,8 @@ A python-based text-to-speech engine using the pyttsx3 module integrated into a 
 
 ---
 
-### Installation
+
+## Installation
 
 Install python interpreter version
 
@@ -98,43 +96,23 @@ Ivona Voice Used
 IVONA 2 Salli - US English female voice [22kHz]
 
 ```
+---
+
+## Supported Environments
+
+|                         |                                         |
+|-------------------------|-----------------------------------------|
+| **Operating systems**   | Linux & Windows                         |
+| **Python versions**     | Python 3.7.6 (64-bit)                   |
+| **Distros**             | Ubuntu, Windows 8, 8.1 Pro, 10 (All Distros)         |
+| **Package managers**    | APT, pip                                |
+| **Languages**           | English                                 |
+| **System requirements** | 2GB of free RAM, i3 - Any Higher        |
+|                         |                                         |
 
 ---
 
-### Built-in Commands
 
-```
-DESTINY | WAKE UP | HEY
-GO TO SLEEP
-ENOUGH | SHUT UP
-WHO AM I | SAY MY NAME
-MY TITLE IS LADY | I'M A LADY | I'M A WOMAN | I'M A GIRL
-MY TITLE IS SIR | I'M A MAN | I'M A BOY | CALL ME *
-WHAT IS YOUR NAME
-WHAT IS YOUR GENDER
-FILE MANAGER | OPEN FILES
-OPEN (BROWSER | CHROME | FIREFOX)
-PHOTOSHOP | PHOTO EDITOR
-INKSCAPE | VECTOR GRAPHICS
-VIDEO EDITOR
-OPEN [CAMERA, CALENDAR, CALCULATOR, STEAM, BLENDER, WRITER, MATH, IMPRESS, DRAW, TERMINAL]
-SOFTWARE CENTER
-OFFICE SUITE
-KEYBOARD *
-ENTER | NEW TAB | SWITCH TAB | CLOSE | GO BACK | GO FORWARD
-SCROLL LEFT | SCROLL RIGHT | SCROLL UP | SCROLL DOWN
-PLAY | PAUSE | SPACEBAR
-SHUT DOWN THE COMPUTER
-GOODBYE | BYE BYE | SEE YOU LATER
-(SEARCH|FIND) * (IN|ON|AT|USING) WIKIPEDIA
-(SEARCH|FIND) * (IN|ON|AT|USING) YOUTUBE
-(SEARCH|FIND) * (IN|ON|AT|USING) (GOOGLE|WEB)
-(SEARCH IMAGES OF|FIND IMAGES OF|SEARCH|FIND) * (IN|ON|AT|USING) (GOOGLE|WEB|GOOGLE IMAGES|WEB IMAGES)
-WHAT'S THE TEMPERATURE IN *
-WHAT TIME IS IT
-```
-
----
 
 | Feature  | TensorFlow |  PyTorch | Sklearn
 | --- | :-: | :-: | :-: |
@@ -151,15 +129,3 @@ WHAT TIME IS IT
 | [Keyphrase Extraction](https://nbviewer.jupyter.org/github/amaiya/ktrain/blob/develop/examples/text/keyword_extraction_example.ipynb) (textblob/nltk/sklearn)   |  ❌  | ❌  | ✅  |
 
 
-# Code Organization
-
-    ├── config.py          <- Configuration file with data directories and hyperparamters to train the model
-    ├── data_loader.py     <- Define an iterator who collects batches of data to train the model
-    ├── eval.py            <- Evaluate the model on a new pair of (context, question)
-    ├── layers.py          <- Define the various layers to be used by the main BiDAF model
-    ├── make_dataset.py    <- Download the SquAD dataset and pre-process the data for training
-    ├── model.py.          <- Define the BiDAF model architecture
-    ├── requirements.txt   <- Required Python libraries to build the project
-    ├── test.py            <- Test the performance of a trained model on the DEV dataset
-    ├── train.py           <- Train a model using the TRAIN dataset only
-    ├── utils.py           <- Group a bunch of useful functions to process the data
