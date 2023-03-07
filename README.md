@@ -79,21 +79,21 @@ BYE | QUIT
 
 ## Installation
 
-Install python interpreter version
+**Install Python Version 3.7.6 - 64Bit Interpreter**
 
 ```bash
-Python Version 3.7.6
+https://www.python.org/downloads/release/python-376/
 
 ```
-Library used for text to speech
+**Pip Command to install the Library used for Text-to-Speech**
 
 ```bash
 pip install pyttsx3==2.7
 
 ```
-Ivona Voice Used
+**Download IVONA 2 Salli - US English female voice [22kHz]**
 ```bash
-IVONA 2 Salli - US English female voice [22kHz]
+https://nextup.com/ivona/
 
 ```
 ---
