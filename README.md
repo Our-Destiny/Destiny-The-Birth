@@ -13,7 +13,7 @@
 
 
 
-# The Birth Of Destiny `[This Repo is Incomplete and Under Maintainance. Stay Tuned For Updates]`
+# The Birth Of Destiny
 
 `This repository contains the first and initial steps taken by the founders Hariprasad and Ribin Baby as a part of learning to create a basic rule-based chatbot.`
 
