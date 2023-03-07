@@ -22,7 +22,7 @@
 
 A python-based text-to-speech engine using the pyttsx3 module integrated into a simple if-else-driven logical skeleton to collect input and provide predefined output for the user input. We have created a minimal console script without any Graphical User Interface(GUI) and limited commands. We have included seven versions in this repository. All the versions are nothing but minor changes to the code as adding typing animations for printing output, etc. These might not be major developments, but was very helpfull at the time of development to keep going.
 
-**The First 10 Lines Code [This is a reminder that Getting Started was hard and you dont have to be great to get started.]**
+**The First 10 Lines Code [ `This is a reminder that Getting Started was hard and you dont have to be great to get started.` ]**
 
  ```python
 
@@ -53,6 +53,19 @@ A python-based text-to-speech engine using the pyttsx3 module integrated into a 
     destiny_engine.runAndWait()
 ```
 
+---
+
+### Supported Environments
+
+|                         |                                         |
+|-------------------------|-----------------------------------------|
+| **Operating systems**   | Linux & Windows                         |
+| **Python versions**     | Python 3.7.6 (64-bit)                   |
+| **Distros**             | Ubuntu, Windows 8, 8.1 Pro, 10 (All Distros)         |
+| **Package managers**    | APT, pip                                |
+| **Languages**           | English                                 |
+| **System requirements** | 2GB of free RAM, i3 - Any Higher        |
+|                         |                                         |
 
 
 
@@ -60,9 +73,9 @@ A python-based text-to-speech engine using the pyttsx3 module integrated into a 
 
 - `Cross-platform` targeted design configuration.
 - Simple speech engine and easy to configure.
-- Sapi5 Voice Support.
-- Uses Ivona Text To Speech Engine Voices.
-- Works Completely Offline
+- `Sapi5` Voice Support.
+- Uses `Ivona Text To Speech Engine` Voices.
+- `Works Completely Offline`
 
 
 ## Installation
@@ -89,17 +102,7 @@ IVONA 2 Salli - US English female voice [22kHz]
 
 
 
-#### Supported Environments
 
-|                         |                                         |
-|-------------------------|-----------------------------------------|
-| **Operating systems**   | Linux                                   |
-| **Python versions**     | Python 3.x (64-bit)                     |
-| **Distros**             | KDE neon, elementary OS, Ubuntu         |
-| **Package managers**    | APT, pip                                |
-| **Languages**           | English                                 |
-| **System requirements** | preferably a [CUDA supported GPU](https://www.geforce.com/hardware/technology/cuda/supported-gpus), 2GB of free RAM   |
-|                         |                                         |
 
 ```
 usage: [-h] [-c] [-s] [-j] [-v] [-g] [--server API_KEY] [-p PORT]
