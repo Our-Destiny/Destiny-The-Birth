@@ -107,7 +107,7 @@ https://nextup.com/ivona/
 | **Distros**             | Ubuntu, Windows 8, 8.1 Pro, 10 (All Distros)         |
 | **Package managers**    | APT, pip                                |
 | **Languages**           | English                                 |
-| **System requirements** | 2GB of free RAM, i3 - Any Higher        |
+| **System requirements** | 2GB of free RAM, Intel i3 - Any Higher  |
 |                         |                                         |
 
 ---
