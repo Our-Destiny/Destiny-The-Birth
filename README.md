@@ -15,19 +15,47 @@
 
 # The Birth Of Destiny
 
-`This repository contains the first and initial steps taken by the founders Hariprasad and Ribin Baby as a part of learning to create a basic rule-based chatbot.`
+`This repository contains the initial steps taken and [The First 10 Lines of Code Created] by the founders Hariprasad and Ribin Baby as a part of learning to create a basic rule-based skeleton for Destiny.`
 
 ---
 
-### Destiny Versions Included In This Repo : v0.0.1 - v0.0.7
+
+A python-based text-to-speech engine using the pyttsx3 module integrated into a simple if-else-driven logical skeleton to collect input and provide predefined output for the user input. We have created a minimal console script without any Graphical User Interface(GUI) and limited commands. We have included seven versions in this repository. All the versions are nothing but minor changes to the code as adding typing animations for printing output, etc. These might not be major developments, but was very helpfull at the time of development to keep going.
+
+**The First 10 Lines Code [This is a reminder that Getting Started was hard and you dont have to be great to get started.]**
+
+ ```python
+
+    import pyttsx3
+    
+    print('Destiny V.0.0.1 Python Test Sequence')
+    
+    # Destiny Speech Engine Initialization Statement.
+    
+    destiny_engine = pyttsx3.init()                                                
+    
+    destiny_voice = destiny_engine.getProperty('voices')
+    
+    destiny_engine.setProperty('voice', destiny_voice[0].id)
+    
+    variable = "hello"
+    
+    destiny_engine.say(variable)
+    
+    # Audio Output Of The Initial Text.
+    
+    destiny_engine.say('Initializing Destiny, Basic Test Sequence!')   
+    
+    # Audio Output Of The Greeting Statement.
+    
+    destiny_engine.say('Hello, Boss!')                                             
+    
+    destiny_engine.runAndWait()
+```
 
 
 
-A Python based simple text to speech engine.
-First initiative step taken in the development for Project Destiny.
-In theory, Destiny is an Autonomus Artificial Intelligence Based Digital Assistant designed to
-enhance human life and ensure privacy to data and security to life.
-Version Control For This Project Is Completely Based On Evolution Of The Project.
+
 ## Features
 
 - `Cross-platform` targeted design configuration.
@@ -58,13 +86,7 @@ IVONA 2 Salli - US English female voice [22kHz]
 ```
 
 
- ```python
-    import time
-    #The current epoch time
-    current_time = time.time()
-    #Set the time for a minute
-    event_activation_time = current_time+60
-```
+
 
 
 #### Supported Environments
