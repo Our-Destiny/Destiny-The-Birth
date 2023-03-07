@@ -67,9 +67,9 @@ A python-based text-to-speech engine using the pyttsx3 module integrated into a 
 | **System requirements** | 2GB of free RAM, i3 - Any Higher        |
 |                         |                                         |
 
+---
 
-
-## Features
+### Features
 
 - `Cross-platform` targeted design configuration.
 - Simple speech engine and easy to configure.
@@ -77,8 +77,9 @@ A python-based text-to-speech engine using the pyttsx3 module integrated into a 
 - Uses `Ivona Text To Speech Engine` Voices.
 - `Works Completely Offline`
 
+---
 
-## Installation
+### Installation
 
 Install python interpreter version
 
@@ -98,36 +99,9 @@ IVONA 2 Salli - US English female voice [22kHz]
 
 ```
 
+---
 
-
-
-
-
-
-```
-usage: [-h] [-c] [-s] [-j] [-v] [-g] [--server API_KEY] [-p PORT]
-                  [--version]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -c, --cli             Command-line interface mode. Give commands to
-                        Destiny via command-line inputs (keyboard) instead
-                        of audio inputs (microphone).
-  -s, --silent          Silent mode. Disable Text-to-Speech output. Dragonfire
-                        won't generate any audio output.
-  -j, --headless        Headless mode. Do not display an avatar animation on
-                        the screen. Disable the female head model.
-  -v, --verbose         Increase verbosity of log output.
-  -g, --gspeech         Instead of using the default speech recognition
-                        method(Mozilla DeepSpeech), use Google Speech
-                        Recognition service. (more accurate results)
-  --server API_KEY      Server mode. Disable any audio functionality, serve a
-                        RESTful spaCy API and become a Twitter integrated
-                        chatbot.
-  -p PORT, --port PORT  Port number for server mode.
-  --version             Display the version number of Destiny
-```
-#### Built-in Commands
+### Built-in Commands
 
 ```
 DESTINY | WAKE UP | HEY
@@ -160,7 +134,7 @@ WHAT'S THE TEMPERATURE IN *
 WHAT TIME IS IT
 ```
 
-
+---
 
 | Feature  | TensorFlow |  PyTorch | Sklearn
 | --- | :-: | :-: | :-: |
