@@ -14,7 +14,12 @@
 
 
 # The Birth Of Destiny `[This Repo is Incomplete and Under Maintainance. Stay Tuned For Updates]`
-### Destiny-Version-0.0.1 
+
+`This repository contains the first and initial steps taken by the founders Hariprasad and Ribin Baby as a part of learning to create a basic rule-based chatbot.`
+
+---
+
+### Destiny Versions Included In This Repo : v0.0.1 - v0.0.7
 
 
 
