@@ -22,7 +22,7 @@
 
 A python-based text-to-speech engine using the pyttsx3 module integrated into a simple if-else-driven logical skeleton to collect input and provide predefined output for the user input. We have created a minimal console script without any Graphical User Interface(GUI) and limited commands. We have included seven versions in this repository. All the versions are nothing but minor changes to the code as adding typing animations for printing output, etc. These might not be major developments, but was very helpfull at the time of development to keep going.
 
-**The First 10 Lines Of Code [ `This is a reminder that Getting Started was hard and you dont have to be great to get started.` ]**
+**The First 10 Lines Of Code [ `This is a reminder that Getting Started will be hard and you don't have to be great to get started.` ]**
 
  ```python
 
