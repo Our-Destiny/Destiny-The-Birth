@@ -1,4 +1,4 @@
-<a href="#"><img width="100%" height="auto" src="https://github.com/Our-Destiny/Destiny-The-Birth/blob/main/Assets/Birth-Of-Destiny-Wall.png" height="175px"/></a>
+<a href="#"><img width="100%" height="auto" src="https://github.com/Our-Destiny/Destiny-The-Birth/blob/main/Assets/Birth-Of-Destiny-Wall.pngo" height="175px"/></a>
 
 
 <p align="center">
