@@ -114,4 +114,4 @@ https://nextup.com/ivona/
 
 ---
 
-> ***And The Journey Of Our Destiny Begins....***
+> ***And The Journey Of Our Destiny Begins....*** [Checkout the next evolutional advancement.](https://github.com/Our-Destiny/The-Conversational-UI)
